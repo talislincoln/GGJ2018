@@ -10,11 +10,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2018
 		Month: 1
-		Day: 26
-		Hour: 23
+		Day: 27
+		Hour: 12
 		Minute: 7
-		Second: 38
-		Millisecond: 238
+		Second: 7
+		Millisecond: 637
 	}
 	Creator: "FBX SDK/FBX Plugins version 2017.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2017"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2018 04:07:38.237"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2018 17:07:07.636"
 			P: "Original|FileName", "KString", "", "", "D:\Tyler Humber VR\Game Jam 2018 Working Files\GameJam\assets\ObstacleSigns\SM_HorizontalLongInternetAd.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2017"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2018 04:07:38.237"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2018 17:07:07.636"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\Tyler Humber VR\Game Jam 2018 Working Files\GameJam\assets\ObstacleSigns"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\Tyler Humber VR\Game Jam 2018 Working Files\GameJam\scenes\Obstacle_Signs.ma"
 		}
@@ -79,7 +79,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1584344420752, "", "Scene" {
+	Document: 2365822500464, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -252,7 +252,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1584257927936, "Geometry::", "Mesh" {
+	Geometry: 2365820362368, "Geometry::", "Mesh" {
 		Vertices: *24 {
 			a: -4.74597549438477,-82.8843078613281,320.3125,4.74597549438477,-82.8843078613281,320.3125,-4.74597549438477,82.8843078613281,320.3125,4.74597549438477,82.8843078613281,320.3125,-4.74597549438477,82.8843078613281,-320.3125,4.74597549438477,82.8843078613281,-320.3125,-4.74597549438477,-82.8843078613281,-320.3125,4.74597549438477,-82.8843078613281,-320.3125
 		} 
@@ -280,11 +280,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
-			UV: *28 {
-				a: 0.375,0,0.625,0,0.375,0.25,0.625,0.25,0.375,0.5,0.625,0.5,0.375,0.75,0.625,0.75,0.375,1,0.625,1,0.875,0,0.875,0.25,0.125,0,0.125,0.25
+			UV: *48 {
+				a: 0.00624847412109375,0.739169955253601,0.993751525878906,0.739170074462891,0.993751525878906,0.994697093963623,0.0062485933303833,0.994697093963623,0.00624847412109375,0.739170074462891,0.993751525878906,0.73917019367218,0.993751525878906,0.994697093963623,0.0062483549118042,0.994697093963623,0.990726590156555,0.718594968318939,0.990726590156555,0.733101427555084,0.0116638448089361,0.733101487159729,0.0116638457402587,0.718595027923584,0.990726590156555,0.718594968318939,0.990726590156555,0.733101427555084,0.0116638448089361,0.733101487159729,0.0116638466715813,0.718595027923584,0.269985616207123,0.69711709022522,0.269985616207123,0.711874723434448,0.0122557058930397,0.711874604225159,0.0122557058930397,0.69711697101593,0.269985616207123,0.69711709022522,0.2699855864048,0.711874842643738,0.0122557058930397,0.711874723434448,0.0122557058930397,0.69711697101593
 			} 
 			UVIndex: *24 {
-				a: 0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
+				a: 16,17,18,19,8,9,10,11,20,21,22,23,12,13,14,15,0,1,2,3,4,5,6,7
 			} 
 		}
 		LayerElementSmoothing: 0 {
@@ -325,7 +325,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1584361662160, "Model::HorizontalLongInternetAd", "Mesh" {
+	Model: 2365832294256, "Model::HorizontalLongInternetAd", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -337,7 +337,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1584312034976, "Material::lambert1", "" {
+	Material: 2365871576368, "Material::lambert1", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -360,14 +360,14 @@ Objects:  {
 Connections:  {
 	
 	;Model::HorizontalLongInternetAd, Model::RootNode
-	C: "OO",1584361662160,0
+	C: "OO",2365832294256,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",1584355391008,1584386721424
+	C: "OO",2364477286592,2365840294080
 	
 	;Geometry::, Model::HorizontalLongInternetAd
-	C: "OO",1584257927936,1584361662160
+	C: "OO",2365820362368,2365832294256
 	
 	;Material::lambert1, Model::HorizontalLongInternetAd
-	C: "OO",1584312034976,1584361662160
+	C: "OO",2365871576368,2365832294256
 }
